@@ -67,7 +67,7 @@ chat-locked-message: "&cThe chat is currently locked."
 
 The visual format of the chat
 ```bash
-chat-format: "%luckperms_prefix% &7%player_name% %luckperms_suffix% &8➠ &f"
+chat-format: "%luckperms_prefix% &f%player_name% %luckperms_suffix%&7➠ &f{message}"
 ```
 Hover tooltip (Supports PAPI)
 ```bash
