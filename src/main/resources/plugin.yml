@@ -4,7 +4,7 @@ main: com.rushlabs.rushchat.RushChat
 api-version: '1.21'
 description: Async Chat Formatting Plugin
 authors:
-  - YourName
+  - Micheal Services
 
 dependencies:
   server:

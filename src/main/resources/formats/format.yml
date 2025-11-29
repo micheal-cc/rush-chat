@@ -2,8 +2,9 @@
 
 # The default chat format.
 # Supports PAPI placeholders (e.g., %player_name%, %luckperms_prefix%)
-# Supports Hex colors (&#RRGGBB) and Legacy colors (&a)
-chat-format: "%luckperms_prefix% &7%player_name% %luckperms_suffix% &8➠ &f"
+# Supports MiniMessage (e.g., <gradient>), Hex (&#RRGGBB), and Legacy colors (&a)
+# Use {message} to specify where the chat message content should be placed.
+chat-format: "%luckperms_prefix% &7%player_name% %luckperms_suffix% &8➠ &f{message}"
 
 # The hover message displayed when hovering over the prefix/name part of the message.
 # Leave empty "[]" to disable.
