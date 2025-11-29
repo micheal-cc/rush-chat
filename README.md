@@ -8,6 +8,7 @@ A lightweight, fully asynchronous chat formatting plugin designed specifically f
 
 * **Async Core**: Built on Paper's `AsyncChatEvent` to ensure chat formatting never lags the main server thread.
 * **Hex & Legacy Colors**: Full support for `&#RRGGBB` hex codes and standard `&a` legacy codes.
+* **Complete Mini Message Support**: Complete support for Mini Message `<gradient>` colors.
 * **PlaceholderAPI**: Native support for PAPI placeholders in prefixes, suffixes, and hover text.
 * **Interactive Chat**: Configurable Hover events and Click actions (e.g., click to DM).
 * **Moderation**: Built-in tools to Lock and Clear the chat.
